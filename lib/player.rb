@@ -8,7 +8,8 @@ class Player
   end
 
   def attacked
-    @hit_points -= 10
+    damage = 10
+    @hit_points -= damage unless (@hit_points - damage) < 0
   end
 
 

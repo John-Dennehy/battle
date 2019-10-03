@@ -7,7 +7,7 @@ feature 'Homepage' do
 
   scenario 'Players can type and submit their names' do
     sign_in
-    expect(page).to have_content 'Bill vs Ted'
+    expect(page).to have_content 'Bill -vs- Ted'
   end
 
 end
