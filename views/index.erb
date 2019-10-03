@@ -2,11 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Homepage</title>
+    <title>Battle</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Ubuntu&display=swap" rel="stylesheet">
     <style>
-      @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
       h1 {
-        font-family: Ubuntu;
+        font-family: 'Permanent Marker', cursive;
         color: #8a0303;
       }
       form {
@@ -16,10 +16,14 @@
   </head>
   <body>
     <center>
-      <h1>Enter your names:</h1>
+      <br>
+      <h1>Champions - Submit your names:</h1>
+      <br>
       <form action="/names" method="POST">
-        Player 1: <input type = "text" name="player_1"><br>
-        Player 2: <input type="text" name="player_2"><br>
+        Player 1:   <input type = "text" name="player_1">
+        <br></br>
+        Player 2:   <input type="text" name="player_2">
+        <br></br>
         <input type="submit"value="Submit">
       </form>
     </center>

@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <title>names</title>
+    <title>Fight!</title>
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Ubuntu&display=swap" rel="stylesheet">
     <style>
       h1 {
         font-family: 'Permanent Marker', cursive;
         color: #8a0303;
       }
+      h2 {
+        font-family: 'Permanent Marker', cursive;
+      }
+      p {
+        font-family: 'Ubuntu';
+      }
     </style>
   </head>
   <body>
+    <p><%= "#{@player_2}: 60HP" %></p>
     <center>
-      <h1><%="#{@player1} vs #{@player2} - FIGHT!"%></h1>
-    <h2>To the death!</h2>
-      </center>
+      <h1><%="#{@player_1} vs #{@player_2}"%></h1>
+      <h1>Fight!</h1>
+      <h2>Battle to the death!</h2>
+    </center>
   </body>
 </html>
