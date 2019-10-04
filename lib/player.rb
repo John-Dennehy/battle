@@ -12,5 +12,4 @@ class Player
     @hit_points -= damage unless (@hit_points - damage) < 0
   end
 
-
 end

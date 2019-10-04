@@ -9,5 +9,5 @@ feature 'Homepage' do
     sign_in
     expect(page).to have_content 'Bill -vs- Ted'
   end
-
+  
 end
